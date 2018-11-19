@@ -1,0 +1,7 @@
+source 'http://rubygems.org'
+  gem 'cucumber', '3.1.1'
+  gem 'fig_newton' , '1.0'
+  gem 'rspec-expectations', '3.7.0'
+  gem 'selenium-webdriver', '3.14.1'
+  gem 'watir', '6.15.0'
+  gem 'json', '2.1.0'

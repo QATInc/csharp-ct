@@ -1,0 +1,28 @@
+project: 'Test'
+language: ruby
+environments:
+  DEV:
+    stages:
+      - Component
+      - Backend
+      - Services
+      - API
+      - UI
+  QA:
+    stages:
+      - Smoke
+      - Integration
+      - End to End
+  UAT:
+    stages:
+      - Acceptance
+      - Performance
+      - Security
+      - Vulnerability
+      - Availability
+  PROD:
+    stages:
+      - giplquicksubmissionUT
+      - ProductTree
+email: 
+    - gmony@qassurancetechnology.com
